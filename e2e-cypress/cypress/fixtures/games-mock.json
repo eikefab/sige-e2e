@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "id": 90001,
+      "name": "Jogo Fictício QDSW",
+      "year_of_release": 2026,
+      "platform_name": "PC",
+      "genre_name": "Puzzle",
+      "publisher_name": "UFPE Games",
+      "rating": "E",
+      "na_sales": 1.5,
+      "eu_sales": 1,
+      "jp_sales": 0.25,
+      "other_sales": 0.25,
+      "global_sales": 3,
+      "critic_score": 90,
+      "critic_count": 10,
+      "user_score": 9,
+      "user_count": 100
+    },
+    {
+      "id": 90002,
+      "name": "Cypress vs Playwright: O Jogo",
+      "year_of_release": 2026,
+      "platform_name": "PS5",
+      "genre_name": "Strategy",
+      "publisher_name": "UFPE Games",
+      "rating": "T",
+      "na_sales": 0.5,
+      "eu_sales": 0.3,
+      "jp_sales": 0.1,
+      "other_sales": 0.1,
+      "global_sales": 1,
+      "critic_score": 70,
+      "critic_count": 5,
+      "user_score": 7,
+      "user_count": 50
+    }
+  ],
+  "total": 2
+}
