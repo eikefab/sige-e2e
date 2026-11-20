@@ -1,0 +1,24 @@
+{
+  "name": "sige-e2e-cypress",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Testes E2E e de API do SIGE.games com Cypress",
+  "type": "module",
+  "scripts": {
+    "cy:open": "cypress open --e2e --browser electron",
+    "test": "cypress run",
+    "test:chrome": "cypress run --browser chrome",
+    "test:headed": "cypress run --headed",
+    "test:api": "cypress run --spec cypress/e2e/11-api.cy.ts",
+    "evidencias": "EVIDENCIAS=1 cypress run",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.7",
+    "cypress": "^16.3.0",
+    "prettier": "^3.10.1",
+    "typescript": "^7.0.2"
+  }
+}
